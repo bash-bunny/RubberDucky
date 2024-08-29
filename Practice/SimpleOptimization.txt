@@ -1,0 +1,5 @@
+DELAY 1000
+GUI r
+DELAY 100
+STRING cmd /C color FE&mode con:cols=1 lines=1&tree c:\ /F /A
+ENTER

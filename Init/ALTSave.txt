@@ -1,0 +1,9 @@
+GUI r
+DELAY 50
+STRING notepad.exe
+ENTER
+DELAY 100
+STRING Hello World
+ATL f
+STRING s
+REM Saca el menu y guarda el fichero

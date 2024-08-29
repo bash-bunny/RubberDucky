@@ -1,0 +1,5 @@
+DELAY 1000
+GUI r
+DELAY 100
+STRING cmd /C "start /MIN cmd /C tree c:\ /F /A"
+ENTER

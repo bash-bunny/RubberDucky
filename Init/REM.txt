@@ -1,0 +1,4 @@
+REM Las siguientes 3 lineas abre un prompt de Windows
+GUI r
+STRING cmd
+ENTER

